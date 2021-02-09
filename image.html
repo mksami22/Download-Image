@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Springfield Internship</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style media="screen">
+    body {
+      background-color: #e08f62
+    }
+  </style>
+  </head>
+  <body>
+    <h1 class="text-center">Upload Image File</h1>
+    <form action="/uploadmultiple"  enctype="multipart/form-data" method="POST">
+      Select images: <input type="file" name="myFiles" required class="form-control" multiple>
+      <button class="btn btn-danger btn-block">
+          Upload image
+      </button>
+    </form>
+  </body>
+</html>

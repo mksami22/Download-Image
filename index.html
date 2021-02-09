@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Springfield Internship</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <style media="screen">
+    body {
+      background-color: #e08f62
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="text-center">Upload Excel File</h1>
+  <br>
+<form action="/uploadfile" id = "post" enctype="multipart/form-data" method="POST">
+  <div class="form-group">
+   <input type="file" name="myFile" required class="form-control"/>
+   <button class="btn btn-danger btn-block">
+       Upload excel File
+   </button>
+  </div>
+</form>
+</body>
+</html>
